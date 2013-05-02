@@ -1,4 +1,4 @@
-class BuyersController < 
+class BuyersController < ApplicationController
 
   before_filter :require_login
 
