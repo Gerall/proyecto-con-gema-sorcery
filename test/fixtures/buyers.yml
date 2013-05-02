@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nombres: MyString
+  apellidos: MyString
+  direccion: MyString
+  fch_ncto: 2013-05-01
+
+two:
+  nombres: MyString
+  apellidos: MyString
+  direccion: MyString
+  fch_ncto: 2013-05-01

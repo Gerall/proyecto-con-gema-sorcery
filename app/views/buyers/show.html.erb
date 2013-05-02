@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombres:</b>
+  <%= @buyer.nombres %>
+</p>
+
+<p>
+  <b>Apellidos:</b>
+  <%= @buyer.apellidos %>
+</p>
+
+<p>
+  <b>Direccion:</b>
+  <%= @buyer.direccion %>
+</p>
+
+<p>
+  <b>Fch ncto:</b>
+  <%= @buyer.fch_ncto %>
+</p>
+
+
+<%= link_to 'Edit', edit_buyer_path(@buyer) %> |
+<%= link_to 'Back', buyers_path %>
